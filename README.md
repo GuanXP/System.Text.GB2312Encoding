@@ -6,13 +6,13 @@ This project is compiled with VS2017
 
 Usage like following:
 
-string StreamToString(Stream ss)
+static string StreamToString(Stream ss)
 {
-    var ret = "";
-    var encoding = GB2312Encoding.Instance;
-    using (var reader = new StreamReader(ss, encoding))
-    {
-        ret = reader.ReadToEnd();
-    }
-    return ret;
+	var ret = "";
+	var encoding = GB2312Encoding.Instance;
+	using (var reader = new StreamReader(ss, encoding))
+	{
+		ret = reader.ReadToEnd();
+	}
+	return ret;
 }
