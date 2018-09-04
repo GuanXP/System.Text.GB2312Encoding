@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="gb2312.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="gb2312.bin" />
+  </ItemGroup>
+
+</Project>
