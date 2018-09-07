@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GuanXP.GB2312Encoding</id>
+    <version>1.0.0</version>
+    <title>System.Text.GB2312Encoding</title>
+    <authors>GuanXP</authors>
+    <owners>GuanXP</owners>
+    <projectUrl>https://github.com/GuanXP/System.Text.GB2312Encoding</projectUrl>
+    <repository type="git" url="https://github.com/GuanXP/System.Text.GB2312Encoding" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>System.Text.GB2312Encoding is an implementation of System.Text.Encoding for charset GB2312 target on .NET Standard 2.0.</description>
+    <releaseNotes>Initial version</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>GB2312 NETStandard Xamarin.Forms</tags>
+    <dependencies>
+	  <dependency id="NETStandard.Library" version="2.0.3" />
+	</dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>
